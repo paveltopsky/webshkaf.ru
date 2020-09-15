@@ -1,0 +1,203 @@
+/* SPECIFICATION */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  /* color: #e68c10; */
+  /* color: #444440; */
+  position: relative;
+  margin: 0;
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  /* отображаем курсор в виде руки при наведении; некоторые
+  считают, что необходимо оставлять стрелочный вид для кнопок */
+  cursor: pointer;
+}
+
+.svg__profile,
+.svg__pencil,
+.svg__save {
+  width: 20px !important;
+  fill: white;
+  margin-right: 3px;
+  margin-bottom: 1px;
+}
+
+.svg__pencil {
+  width: 18px !important;
+  margin-bottom: 3px;
+}
+
+.svg__save {
+  width: 18px !important;
+  margin-bottom: 2px;
+}
+
+.svg__profile:hover,
+.svg__pencil:hover,
+.svg__save:hover {
+  fill: white;
+}
+
+.btn {
+  padding: 3px 15px;
+  font-size: 1em;
+}
+
+.form__under-q {
+  text-align: center;
+  padding: 0 30px;
+}
+
+.form__under-q a {
+  font-weight: 500;
+}
+
+.text__success {
+  color: #32CD32;
+  text-align: center;
+  font-weight: bold;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.form-group__wrap {
+  padding: 30px;
+}
+
+.form__title {
+  font-size: 1.5em;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.tool {
+  background-color: rgb(245, 245, 245);
+}
+
+.tool__item {
+  padding: 10px 0;
+}
+
+.dep__wrap {
+  margin-bottom: 20px;
+}
+
+.dep__offer {
+  width: 50%;
+  text-align: center;
+  padding: 20px;
+}
+
+.dep__item-cell {
+  width: 25%;
+}
+
+/* header style */
+
+.header {
+  position: relative !important;
+  /* margin-bottom: 30px; */
+  /* z-index: 10000; */
+  z-index: auto;
+}
+
+/* стили личного кабинета */
+
+.menu .btn {
+  padding: 8px 20px;
+  margin-bottom: 4px;
+  /* border-bottom: 2px solid lightgray; */
+}
+
+.menu__btn {
+  width: 210px !important;
+}
+
+.menu__title {
+  font-size: 1.1em;
+  font-weight: 500;
+}
+
+.saving {
+  
+}
+
+.saving__info {
+  margin-bottom: 15px;
+}
+
+.saving__counter {
+
+}
+
+.saving__counter span{
+  font-weight: 500;
+}
+
+.saving__sort {
+  cursor: pointer;
+}
+
+.saving__item {
+  margin: 0;
+  background-color: #FFF;
+  margin-bottom: 20px;
+  /* height: 123px; */
+  border: 2px solid gray;
+  border-radius: 10px;
+}
+
+.saving__item.empty {
+  border: 2px solid lightgray;
+}
+
+.saving__text.empty {
+  cursor: pointer;
+}
+
+.saving__title {
+  font-size: 1.15em;
+  font-weight: 500;
+  text-transform: uppercase;
+  /* margin-bottom: 3px; */
+}
+
+.saving__form-btn {
+  width: 90%;
+}
+
+.saving__btn {
+  width: 100%;
+}
+
+.saving__price {
+
+}
+
+.saving__subtitle {
+  overflow: hidden; 
+  text-overflow: ellipsis;
+  max-height: 102px;
+  /* background-color: lightgray; */
+  padding: 10px 0;
+}
+
+.saving__btn-group {
+  padding: 20px 0;
+}
+
+.saving__btn-open {
+  margin-bottom: 15px;
+}

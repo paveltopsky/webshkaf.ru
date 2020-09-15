@@ -1,0 +1,31 @@
+@media screen and (max-width: 1300px) {
+
+  body {
+    font-size: 0.8em;
+  }
+  .panel {
+    width: 40% !important;
+    /* display: none !important; */
+  }
+
+  .panel__title-block {
+    width: 32% !important;
+  }
+
+  /* #wrap {
+    width: 100%;
+    height: 100vh;
+  } */
+}
+
+@media screen and (max-width: 1100px) {
+  .panel {
+    width: 45% !important;
+    /* display: none !important; */
+  }
+
+  .panel__title-block {
+    width: 36% !important;
+  }
+
+}
